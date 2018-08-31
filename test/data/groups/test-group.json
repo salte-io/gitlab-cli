@@ -1,0 +1,6 @@
+{
+  "name": "Test-Group",
+  "path": "test-group",
+  "description": "Test group description.",
+  "visibility": "private"
+}

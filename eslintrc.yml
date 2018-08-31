@@ -1,0 +1,19 @@
+extends:
+  - eslint:recommended
+  - google
+parserOptions:
+  ecmaVersion: 8
+  sourceType: module
+env:
+  node: true
+  mocha: true
+globals:
+  Promise: true
+rules:
+  object-curly-spacing:
+    - error
+    - always
+  comma-dangle:
+    - error
+    - never
+  max-len: off

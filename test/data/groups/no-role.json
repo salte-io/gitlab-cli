@@ -1,0 +1,6 @@
+{
+  "name": "Test No Role",
+  "path": "test-no-role",
+  "description": "Test no role description.",
+  "visibility": "private"
+}

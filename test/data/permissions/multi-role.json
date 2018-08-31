@@ -1,0 +1,22 @@
+[
+  {
+      "gitlabRoleLevel": 50,
+      "activeDirectoryGroups": []
+  },
+  {
+      "gitlabRoleLevel": 40,
+      "activeDirectoryGroups": [
+          "Test Group One"
+      ]
+  },
+  {
+      "gitlabRoleLevel": 30,
+      "activeDirectoryGroups": [
+          "Test Group Two",
+          "Test Group Three"
+      ]
+  },
+  {
+      "gitlabRoleLevel": 20
+  }
+]

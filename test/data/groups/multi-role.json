@@ -1,0 +1,6 @@
+{
+  "name": "Test Multi-Role",
+  "path": "test-multi-role",
+  "description": "Test multi-role description.",
+  "visibility": "private"
+}

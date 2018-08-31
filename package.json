@@ -1,0 +1,39 @@
+{
+  "name": "gitlab-cli",
+  "version": "1.0.0",
+  "description": "A command line tool for configuring Gitlab.",
+  "main": "src/gitlab.js",
+  "scripts": {
+    "test": "URL=${URL} USERNAME=${USERNAME} PASSWORD=${PASSWORD} LOG_LEVEL=${LOG_LEVEL:=info} GITLAB_LICENSE=${GITLAB_LICENSE} nyc --reporter=lcov mocha test/**/*.spec.js --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/salte-io/gitlab-cli.git"
+  },
+  "keywords": [
+    "gitlab",
+    "salte",
+    "cli"
+  ],
+  "author": "The Salte Authors",
+  "license": "BSD-3-Clause",
+  "bin": {
+    "gitlab": "bin/gitlab.js"
+  },
+  "bugs": {
+    "url": "https://github.com/salte-io/gitlab-cli/issues"
+  },
+  "homepage": "https://github.com/salte-io/gitlab-cli#readme",
+  "dependencies": {
+    "log4js": "^3.0.5",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-mocha": "^5.2.0",
+    "mocha": "^5.2.0",
+    "nock": "^9.6.1",
+    "nyc": "^12.0.2"
+  }
+}
